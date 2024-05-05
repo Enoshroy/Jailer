@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Criminal Registration</title>
+	<!-- Bootstrap 5 CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row justify-content-center mt-5">
+			<div class="col-md-6">
+				<div class="card">
+					<div class="card-header bg-primary text-white">
+						<h2 class="text-center mb-0">Criminal Registration</h2>
+					</div>
+					<div class="card-body">
+						<form action="RegisterServlet" method="post">
+							
+							<div class="mb-3">
+								<label for="criminalName" class="form-label">Criminal Name</label>
+								<input type="text" class="form-control" name="criminalName" required>
+							</div>
+							<div class="mb-3">
+								<label for="crime name" class="form-label">Crime name </label>
+								<input type="text" class="form-control" name="crimename" required>
+							</div>
+							
+							<div class="mb-3">
+								<label for="dateofrealse" class="form-label">Dateofrealse</label>
+								<input type="number" class="form-control" name="dateofrealse" required>
+							</div>
+							<div class="mb-3">
+								<label for="punishmentperiod" class="form-label">punishmentperiod</label>
+								<input type="numeber" class="form-control" name="punishmentperiod" required>
+							</div>
+							<div class="mb-3">
+								<label for="khadhino" class="form-label">Khadhino</label>
+								<input type="text" class="form-control" name="khadhino" required>
+							</div>
+							<div class="d-grid gap-2">
+								<button type="submit" class="btn btn-primary">Sign Up</button>
+							</div>
+							<p class="text-center mt-3">Already a User? <a href="login.html">Sign in</a></p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Bootstrap 5 JS (optional) -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
